@@ -33,8 +33,11 @@ Streamlit: An open-source app framework used to build the e-commerce website.
 The project consists of the following components:
 
 Clickstream data source: The project captures clickstream data from a self-built e-commerce website.
+
 Apache Kafka: The clickstream data is then ingested into an Apache Kafka topic in real-time.
+
 Spark Streaming application 1: This Spark application reads the data from the Kafka topic, cleans and processes it in real-time, and then loads it into Apache Cassandra.
+
 Spark Streaming application 2: This Spark application reads the data from Cassandra, identifies frequent visitors to the website, and sends them personalized email offers.
 
 ## Setup and Configuration
