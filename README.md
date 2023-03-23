@@ -22,8 +22,11 @@ Overall, this project will help GETMART to improve customer engagement and drive
 The following technologies were used in the implementation of this project:
 
 Apache Kafka: A distributed streaming platform that allows you to publish and subscribe to streams of records.
+
 Apache Spark Streaming: A scalable and fault-tolerant stream processing engine that allows you to process real-time data streams.
+
 Apache Cassandra: A distributed NoSQL database that provides high availability and scalability.
+
 Streamlit: An open-source app framework used to build the e-commerce website.
 
 ## Project Architecture
