@@ -2,6 +2,20 @@
 
 This project is a real-time streaming data engineering project that captures clickstream data from a self-built e-commerce website and processes it in real-time using Apache Kafka, Apache Spark Streaming, and Apache Cassandra. The project consists of two Spark applications: one that cleans and processes the data in real-time and loads it into Cassandra, and another that identifies frequent visitors to the website and sends them personalized email offers. Streamlit is used to build the e-commerce website.
 
+# Business Use Case:
+
+The objective of this project is to help the e-commerce company, GETMART, to offer discounts to its customers who are frequent visitors to their website and are interested in particular products such as laptops, phones, etc.
+
+The company aims to increase sales by incentivizing its loyal customers with personalized discount offers. However, identifying such customers manually is a challenging task, especially given the large volume of website visitors.
+
+To address this challenge, the company has decided to leverage real-time clickstream data analytics to identify the frequent visitors and target them with personalized discount offers. This project will enable the company to capture clickstream data from their website and process it in real-time using Apache Kafka, Apache Spark Streaming, and Apache Cassandra.
+
+The project will help GETMART to:
+
+Identify frequent visitors to their website who are interested in particular products.
+Offer personalized discount offers to such customers to incentivize them to make a purchase.
+Increase sales by incentivizing loyal customers and building customer loyalty.
+Overall, this project will help GETMART to improve customer engagement and drive sales growth by leveraging real-time data analytics.
 
 ## Technologies Used
 
