@@ -1,0 +1,1 @@
+$KAFKA_HOME/bin/kafka-topics --create --topic test --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
